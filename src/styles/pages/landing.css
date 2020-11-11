@@ -53,16 +53,17 @@
 
   width: 60px;
   height: 60px;
-  background: #3263E1;
+  background: url('../../images/pokebola 1.svg') no-repeat;
+  background-size: 100%;
   border-radius: 30px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  transition: background-color 0.2s;
+  transition: box-shadow 0.2s;
 }
 
 .content-wrapper .enter-app:hover {
-  background-color: #32ACE1;
+  box-shadow: 0px 0px 20px 4px #fecb4d;
 }

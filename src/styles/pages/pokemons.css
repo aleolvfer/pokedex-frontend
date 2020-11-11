@@ -20,3 +20,33 @@
   width: 20%;
 }
 
+#page-pokemons input {
+  max-width: 220px;
+  
+}
+
+#page-pokemons button{
+  background: #3263E1 !important;
+}
+
+#page-pokemons .create-pokemon {
+  position: absolute;
+  right: 4em;
+  bottom: 4em;
+
+  width: 60px;
+  height: 60px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: red;
+  border-radius: 30px;
+
+  transition: background-color 1s;
+}
+
+#page-pokemons .create-pokemon:hover {
+  background: red;
+}

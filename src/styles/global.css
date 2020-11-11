@@ -9,6 +9,6 @@ body {
   background: #edf2f5;
 }
 
-body, input, button, textarea {
-  font-family: 'Press Start 2P', 'sans serif';  
+body, input, button, textarea, h1, h2 {
+  font-family: 'Press Start 2P' , 'sans serif' !important; 
 }  
