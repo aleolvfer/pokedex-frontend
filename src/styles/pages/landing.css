@@ -1,0 +1,68 @@
+#page-landing{
+  width: 100vw;
+  height: 100vh ;
+  background: linear-gradient(116.82deg, #FECB4D 0%, #FECB4D 52.08%, #E45932 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper img{
+  width: 30%;
+}
+
+#page-landing .content-wrapper {
+  padding: 4em 0 4em 0;
+
+  width: 100%;
+  max-width: 1100px;
+
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: url('../../images/landing.svg') no-repeat 100% center;
+  background-size: 70%;
+}
+
+#page-landing .content-wrapper main{
+  max-width: 450px;
+}
+#page-landing .content-wrapper main h1{
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 40px;
+  color: #3263E1;
+}
+#page-landing .content-wrapper main p{
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #333;
+}
+
+.content-wrapper .enter-app {
+  position: absolute;
+  right: 4em;
+  bottom: 4em;
+
+  width: 60px;
+  height: 60px;
+  background: #3263E1;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover {
+  background-color: #32ACE1;
+}
