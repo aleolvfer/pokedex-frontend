@@ -19,9 +19,9 @@ npm install
 
 Após a instalação, você podera executar a aplicação em modo de desenvolvimento:
 ```
-yarn dev
+yarn start
 ```
 ou
 ```
-npm run dev
+npm run start
 ```
