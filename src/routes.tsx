@@ -5,7 +5,6 @@ import Landing from './pages/Landing';
 import Pokemons from './pages/Pokemons';
 
 
-
 function Routes () {
 
   return (
