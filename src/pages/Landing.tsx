@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import '../styles/pages/landing.css';
+import '../styles/landing.css';
 
 import logoImg from '../images/logo.svg';
 

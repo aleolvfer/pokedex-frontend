@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;  
+  font-family: 'Press Start 2P' , 'sans serif'; 
 }
 
 body {
@@ -9,6 +10,6 @@ body {
   background: #edf2f5;
 }
 
-body, input, button, textarea, h1, h2 {
+body, input, button, textarea, h1, h2, * {
   font-family: 'Press Start 2P' , 'sans serif' !important; 
-}  
+}

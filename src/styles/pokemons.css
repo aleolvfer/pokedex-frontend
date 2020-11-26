@@ -6,20 +6,6 @@
   display: flex;  
 }
 
-#page-pokemons aside{
-  width: 440px;
-  background: linear-gradient(116.82deg, #FECB4D 0%, #FECB4D 52.08%, #E45932 100%);
-  padding: 80px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#page-pokemons aside header img{
-  width: 20%;
-}
-
 #page-pokemons input {
   max-width: 220px;
   
@@ -49,4 +35,16 @@
 
 #page-pokemons .create-pokemon:hover {
   background: red;
+}
+
+#page-pokemons main {
+  display: flex;
+  align-items: center;
+
+  width: 800px;
+  /*max-height: 100vh; */
+
+  margin: 2em 2em 2em 4em;
+
+  background: url('../images/pokedex.png') no-repeat 100% center;
 }

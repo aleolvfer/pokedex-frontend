@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background: url('../../images/landing.svg') no-repeat 100% center;
+  background: url('../images/landing.svg') no-repeat 100% center;
   background-size: 70%;
 }
 
@@ -53,7 +53,7 @@
 
   width: 60px;
   height: 60px;
-  background: url('../../images/pokebola 1.svg') no-repeat;
+  background: url('../images/pokebola 1.svg') no-repeat;
   background-size: 100%;
   border-radius: 30px;
 

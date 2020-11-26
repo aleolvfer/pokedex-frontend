@@ -4,8 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Pokemons from './pages/Pokemons';
 
-import PokemonsDetails from './pages/Orphanage';
-import CreatePokemons from './pages/CreateOrphanage';
+
 
 function Routes () {
 
@@ -13,10 +12,7 @@ function Routes () {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Landing} />
-        <Route path="/pokemons" component={Pokemons} />
-
-        <Route path="/pokemons/create" component={CreatePokemons} />
-        <Route path="/pokemons/:id" component={PokemonsDetails} />
+        <Route path="/pokemons" exact component={Pokemons} />
       </Switch>
     </BrowserRouter>
   );

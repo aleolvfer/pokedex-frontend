@@ -1,0 +1,12 @@
+aside.app-sidebar{
+  width: 440px;
+  background: linear-gradient(116.82deg, #FECB4D 0%, #FECB4D 52.08%, #E45932 100%);
+  padding: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+aside.app-sidebar header img{
+  width: 20%;
+}
